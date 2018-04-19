@@ -1,4 +1,6 @@
 # AppleSauceQ
+Hasif Ahmed, Wenting Li, Kerwin Chen
+
 The methods we think that are essential are... 
 
     public void	addFirst(E e)
