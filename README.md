@@ -1,6 +1,19 @@
 # AppleSauceQ
 Hasif Ahmed, Wenting Li, Kerwin Chen
 
+Ordered To-Do List: 
+1. do isEmpty;
+1.5 do size;
+2. do offerFirst;
+3/ do offerLast;
+4. do peekFirst;
+5. do peekLast;
+6. do pollLast;
+7. do pollFirst
+
+Summary: 
+We plan to develop our interface according to our to do list.
+
 The methods we think that are essential are... 
 
      public boolean	offerFirst(E e)
