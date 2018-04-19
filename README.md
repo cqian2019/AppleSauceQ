@@ -5,7 +5,7 @@ Ordered To-Do List:
 1. do isEmpty;
 1.5 do size;
 2. do offerFirst;
-3/ do offerLast;
+3. do offerLast;
 4. do peekFirst;
 5. do peekLast;
 6. do pollLast;
