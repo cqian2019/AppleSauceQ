@@ -2,6 +2,7 @@
 Hasif Ahmed, Wenting Li, Kerwin Chen
 
 Ordered To-Do List: 
+
 0. do isEmpty;
 1. do size;
 2. do offerFirst;
