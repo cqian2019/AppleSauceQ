@@ -21,12 +21,7 @@ public class Sauce<Pigeon> implements Deque<Pigeon> {
       if( size == _container.length){
         return false;
       }
-      ArrayList<Pigeon> temp = new ArrayList(_container.length);
-      temp[0] = e;
-      for(int i = 1; i < size + 1; i++){
-        temp[i] = _container[i - 1];
-      }
-      _container = temp;
+      _container.add(0,e);
       return true;
 
     }
