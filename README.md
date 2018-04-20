@@ -39,4 +39,4 @@ The methods we think that are essential are...
 //Returns the number of elements in this deque.
 
 
-We plan on using double-linked nodes as our underlying class due to the fact that a deque focuses on both ends of a data set and double-linked nodes would be helpful due to the use of the head and the tail. 
+We plan on using ArrayList as our underlying class due to the fact that a deque focuses on both ends of a data set and an ArrayList makes it easy to access any side of the ArrayList and make modifications. 
