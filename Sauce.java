@@ -1,14 +1,16 @@
 import java.util.ArrayList;
 
-public class QQKachoo<Pigeon> implements Deque<Pigeon> {
+public class Sauce<Pigeon> implements Deque<Pigeon> {
 
     //instance variables
     private ArrayList<Pigeon> _container;
     
 
     //CONSTRUCTOR
-    public QQKachoo() {
+    public Sauce() {
+        _container = new ArrayList();
         
+
     }
 
     //Inserts the specified element at the front of this deque unless it 
