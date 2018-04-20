@@ -1,28 +1,28 @@
-public interface Deque<T>
+public interface Deque<Pigeon>
 {
     //Inserts the specified element at the front of this deque unless it 
     //would violate capacity restrictions.
-    public boolean	offerFirst(E e);
+    public boolean offerFirst(Pigeon e);
 
     //Inserts the specified element at the end of this deque unless it 
     //would violate capacity restrictions.
-    public boolean	offerLast(E e);
+    public boolean offerLast(Pigeon e);
 
     //Retrieves, but does not remove, the first element of this deque, 
     //or returns null if this deque is empty.
-    public E peekFirst();
+    public Pigeon peekFirst();
 
     //Retrieves, but does not remove, the last element of this deque, 
     //or returns null if this deque is empty.
-    public E peekLast();
+    public Pigeon peekLast();
 
     //Retrieves and removes the first element of this deque, or 
     //returns null if this deque is empty.
-    public E pollFirst();
+    public Pigeon pollFirst();
 
     //Retrieves and removes the last element of this deque, or 
     //returns null if this deque is empty.
-    public E pollLast();
+    public Pigeon pollLast();
 
     //Returns the number of elements in this deque.
     public int size();
