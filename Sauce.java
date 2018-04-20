@@ -3,8 +3,8 @@ import java.util.ArrayList;
 public class Sauce<Pigeon> implements Deque<Pigeon> {
 
     //instance variables
-    private ArrayList<Pigeon> _container;
-    private int size;
+    protected ArrayList<Pigeon> _container;
+    protected int size;
 
 
     //CONSTRUCTOR
@@ -22,6 +22,7 @@ public class Sauce<Pigeon> implements Deque<Pigeon> {
         return false;
       }
       _container.add(0,e);
+        size += 1;
       return true;
 
     }
@@ -32,7 +33,7 @@ public class Sauce<Pigeon> implements Deque<Pigeon> {
         return false;
       }
       _container[size] = e;
-
+        size += 1;
       return true;
 
 
@@ -66,6 +67,7 @@ public class Sauce<Pigeon> implements Deque<Pigeon> {
       }
       Pigeon ret = _container[0];
       _container.remove(0);
+        size -= 1;
       return ret;
 
 
@@ -79,6 +81,7 @@ public class Sauce<Pigeon> implements Deque<Pigeon> {
       }
       Pigeon ret = _container[size];
       _container.remove(size);
+        size -= 1;
       return true;
 
     }
