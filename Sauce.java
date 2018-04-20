@@ -8,8 +8,8 @@ public class Sauce<Pigeon> implements Deque<Pigeon> {
 
 
     //CONSTRUCTOR
-    public Sauce(10) {
-        _container = new ArrayList<Pigeon>(10);
+    public Sauce(int x) {
+        _container = new ArrayList<Pigeon>(x);
         size = 0;
 
 
